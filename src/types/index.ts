@@ -8,7 +8,8 @@ export type PostImage = {
     url?: string;
 }
 
+// cada ruta y sus parámetros
 export type RouteStackParam = {
     Home: undefined;
-    Details: undefined;
+    Detail: PostImage;
 }

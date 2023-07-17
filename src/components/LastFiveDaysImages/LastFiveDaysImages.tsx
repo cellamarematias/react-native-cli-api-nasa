@@ -6,7 +6,7 @@ import PostImage from "../PostImage/PostImage";
 
 
 const LastFiveDaysImages: FC<{postImages?:PostImageTypes[]}> =  ({postImages})  => {
-    console.log("props", postImages);
+    //console.log("props", postImages);
     
     return (
         <View style={styles.container}>

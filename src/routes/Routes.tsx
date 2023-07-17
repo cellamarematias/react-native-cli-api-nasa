@@ -6,13 +6,28 @@ import Home from "../views/Home/Home";
 import Detail from "../views/Detail/Detail";
 
 const Stack = createNativeStackNavigator();
+const routesScreenDefaultOptions = {
+    headerStyle: {
+        backgroundColor: 'black',
+    },
+    headerTitleStyle: {
+        color: '#ffff'
+    }
+}
 
 const Routes = () => (
 
     <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
-            <Stack.Screen name="Home" component={Home}/>
-            <Stack.Screen name="Detail" component={Detail} />
+            <Stack.Screen name="Home"
+                component={Home}
+                options={routesScreenDefaultOptions}
+            />
+            <Stack.Screen
+                name="Detail"
+                component={Detail}
+                options={routesScreenDefaultOptions}
+            />
         </Stack.Navigator>
     </NavigationContainer>
 )
