@@ -1,6 +1,13 @@
+![rpint1](https://github.com/cellamarematias/react-native-cli-api-nasa/assets/88092713/3a1793ab-9d87-4282-b35e-c818f7097c0a)
+![Uploading print2.png…]()
 # Proyecto de React Native con React Navigation y consumo de la API de la NASA
 
 Este proyecto de React Native utiliza React Navigation para la navegación entre pantallas y consume la API de la NASA para mostrar la Imagen Astronómica del Día (APOD) y las imágenes de los últimos cinco días.
+
+
+![Uploading print3.png…]()
+![Uploading print4.png…]()
+
 
 Configuración del proyecto
 Clona este repositorio en tu máquina local.
