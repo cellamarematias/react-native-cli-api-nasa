@@ -46,7 +46,7 @@ const Home = () => {
     }, []);
 
 
-    console.log("lastFiveDaysImage", lastFiveDaysImage)
+   // console.log("lastFiveDaysImage", lastFiveDaysImage)
 
 
     return (
@@ -61,8 +61,8 @@ const Home = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        // paddingHorizontal: 16,
-        padding: 12,
+        paddingHorizontal: 16,
+       // padding: 1,
         backgroundColor: 'black',
     }
 });

@@ -12,4 +12,5 @@ export type PostImage = {
 export type RouteStackParam = {
     Home: undefined;
     Detail: PostImage;
+    Image: PostImage;
 }

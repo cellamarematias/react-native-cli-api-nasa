@@ -28,8 +28,8 @@ const PostImage: FC<PostImageType> = ({title, date, url, explanation}) => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "#1f1f1f",
-        borderRadius: 10,
+        backgroundColor: "#121212",
+        borderRadius: 5,
         marginBottom: 12,
         padding: 16.
 
@@ -38,16 +38,16 @@ const styles = StyleSheet.create({
         color: '#ffff',
         fontWeight: 'bold',
         fontSize: 18,
-        marginBottom: 12
+        // marginBottom: 12
     },
     date: {
-        color: '#c70c3e',
+        color: '#ffff',
         fontWeight: '400',
         fontSize: 12,
         marginBottom: 12
     },
     buttonContainer: {
-        alignItems: 'flex-end'
+        alignItems: 'flex-end',
     }
 })
 

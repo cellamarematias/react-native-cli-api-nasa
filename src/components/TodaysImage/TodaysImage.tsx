@@ -27,17 +27,17 @@ const TodaysImage: FC<PostImage> = ({date, title, url, explanation}) => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "#383838",
-         marginVertical: 16,
+        backgroundColor: "#121212",
+        //  marginVertical: 16,
          padding: 12,
         //  borderWidth: 2,
          borderRadius: 10,
          borderColor: '#ffff',
-         marginHorizontal: 24,
+        //  marginHorizontal: 24,
     },
     image: {
         width: '100%',
-        height: 180,
+        height: 150,
         // borderWidth: 2,
         borderRadius: 10,
         borderColor: '#fff'
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 
     },
     buttonContainer: {
-        alignItems: "flex-end"
+        alignItems: "flex-end",
     }
 
 })

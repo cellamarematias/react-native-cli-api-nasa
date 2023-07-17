@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         marginBottom: 18,
     },
     content: {
-        paddingHorizontal: 24,
+        // paddingHorizontal: 24,
     },
 });
 
